@@ -13,7 +13,7 @@ const Header = () => {
   const [navMobile, setNavMobile] = useState(false);
   return (
     <header
-      className="lg:mb-12 mb-16 z-20 relative px-4 lg:px-0"
+      className="lg:mb-12 mb-12 z-20 relative px-4 lg:px-0"
       data-aos="fade-down"
       data-aos-delay="1200"
       data-aos-duration="1000"
@@ -41,7 +41,7 @@ const Header = () => {
             <NavMobile />
           </div>
 
-          <button className="btn btn-quaternary flex items-center gap-x-[20px] group">
+          <button className="btn btn-quaternary md:flex items-center gap-x-[20px] group hidden">
             Request Demo
             <BsArrowRight className="text-2xl text-accent-primary group-hover:text-white transition" />
           </button>
